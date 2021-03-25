@@ -1,0 +1,29 @@
+
+config global
+	option time_update '4'
+	option koolproxy_port '0'
+	option startup_delay '5'
+	option koolproxy_acl_default '0'
+	option koolproxy_mode '2'
+	option koolproxy_host '1'
+	option koolproxy_rules 'kp.dat user.txt'
+	option enabled '0'
+
+config rss_rule
+	option name 'ABP规则'
+	option url 'https://gitee.com/godros/godproxy/raw/master/rules/easylistchina.txt'
+	option file 'ABP.txt'
+	option load '0'
+	option time '2019-04-28 20:58'
+
+config rss_rule
+	option load '0'
+	option name 'Fanboy'
+	option url 'https://godros.coding.net/p/godproxy/d/rulebin/git/raw/master/rules/fanboy.txt'
+	option file 'fanboy.txt'
+	option time '2019-08-10 08:32'
+
+
+
+
+
